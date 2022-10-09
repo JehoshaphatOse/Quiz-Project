@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/dashB.css">
+    <link rel="stylesheet" href="./assets/css/DashBpg_5.css">
+    <script src="https://kit.fontawesome.com/64fbf8a835.js" crossorigin="anonymous"></script> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,300;0,400;0,700;1,200&display=swap" rel="stylesheet">
+</head>
+<body onclick="closeMenu()">
+        <div class="main-container">
+            <div class="side-nav-section">
+                <div class="side-nav">
+                    <h2><span class="Q-logo">Q</span>uiz<span class="bee-logo">Bee</span></h2>
+                    <div class="dot-logo"></div>
+                    <div class="dot-logo-big"></div>
+                </div>
+                <div class="nav-menu">
+                
+                    <ul>
+                        <li><a href=""><i class="fa-solid fa-list"></i>Dashboard</a></li>
+                        <li><a href=""><i class="fa-brands fa-ioxhost"></i>Integration</a></li>
+                        <li><a href=""><i class="fa-regular fa-comment"></i>Support</a></li>
+
+                    </ul>
+                </div>
+                <div class="flag-container">
+                    <form class="form"  action="">
+                        <span class="flag"><i class="fa-regular fa-flag"></i></span>
+                        <select name="" id="">
+                            <option  value="select"> Select Language </option>
+                            <option  value="select"> English </option>
+                            <option  value="select"> French </option>
+                            <option  value="select"> Spanish </option>
+                        </select>
+                    </form>
+                </div>
+                <div class="Username">
+                    <img class="user-image" src="./assets/images/Jane 1.jpg"  alt="">
+                    <p class="user-text">Username</p>
+                    <i id="fa-solid" class="fa-solid fa-ellipsis-vertical"></i>
+
+                </div>
+                <div class="notification">
+                    <a href="">  <i class="fa-regular fa-bell"></i>Notifications</a>
+                </div>
+            </div>
+            
+            <div class="step-section">
+                <div class="step " >
+                    <img class="tick" src="./assets/images/Vector (1).png" alt="">
+                    
+                    <a class="text-link" href=""> <span>Step</span>1</a>
+                
+                </div>
+                <div class="step-text">
+                    <p>Quize Name & Type</p>
+                </div>
+
+                <div class="step " >
+                    <img class="tick" src="./assets/images/Vector (1).png" alt="">
+                    
+                    <a class="text-link" href=""> <span>Step</span>2</a>
+                
+                </div>
+                <div class="step-text">
+                    <p>Select Your Theme</p>
+                </div>
+
+                <div class="step " >
+                    <img class="tick" src="./assets/images/Vector (1).png" alt="">
+                    <a class="text-link" href=""> <span>Step</span>3</a>
+                </div>
+                <div class="step-text">
+                    <p>Edit Quiz Flow</p>
+                </div>
+
+                <div class="step " >
+                    <img class="tick" src="./assets/images/Vector (1).png" alt="">
+                    
+                    <a class="text-link" href=""> <span>Step</span>4</a>
+                
+                </div>
+                <div class="step-text">
+                    <p>Finish & Share</p>
+                </div>
+
+                <div class="step " >
+                    <img class="tick" src="./assets/images/Vector (1).png" alt="">
+                    
+                    <a class="text-link" href=""> <span>Done</span></a>
+                
+                </div>
+            </div>
+            <div class="main-section">
+                <div class="first-container">
+                    <div class="congrat-image">
+                        <img src="./assets/images/pngwing.com 1.png" alt="">
+                    </div>
+                   <div class="congrat-text">
+                    <p>Congratulations!!!, You’ve Successfully 
+                        Created Your Quiz</p>
+                   </div>
+                    
+                </div>
+                <div class="second-container">
+                    <div class="heading">
+                        <div class="heading-text">
+                            <p>Share and Embed</p>
+                        </div>
+                        <div class="heading-btns">
+                            <a href=""><button>Share Quiz</button></a>
+                            <a href=""><button>Embed Quiz</button></a>
+                        
+                        </div>
+                    </div>
+                    <div class="image-container">
+                        <div class="template-box-section">
+                            <img src="./assets/images/Rectangle 14 (1).png" alt="">
+                            <div class="quiz-title">
+                                <h4>Quiz Title</h4>
+                                <div class="drop-down-container">
+                                    <i id="fa-solid" onclick="showMenu()" class="fa-solid fa-ellipsis-vertical"></i>
+                                    <ul id="menu" class="drop-down">
+                                        <li>
+                                            <a  href="">Edit</a>
+                                        </li>
+                                        <li>
+                                            <a href="">Copy</a>
+                                        </li>
+                                        <li>
+                                            <a href="">Preview</a>
+                                        </li>
+                                        <li>
+                                            <a href="">Analytics</a>
+                                        </li>
+                                        <li>
+                                            <a href="">Share</a>
+                                        </li>
+                                        <li>
+                                            <a href="">Delete</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                
+                            </div>
+                            <p>Date Created</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+       
+    </body>
+    <!-- <script>
+        var open = document.getElementById("fa-solid");
+        var dropDown = document.querySelector(".drop-down-container");
+
+        open.addEventListener('click', showMenu);
+
+        function showMenu (){
+            console.log("clicked")
+        }
+    </script> -->
+    <script src="./assets/js/pg5.js"></script>
+</html>

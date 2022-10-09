@@ -1,0 +1,277 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #f4f4f4;
+    overflow: hidden;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.container{
+    width: 100vw;
+    display: flex;
+    
+}
+
+.side-nav-section{
+    display: flex;
+    flex-direction: column;
+    /* flex: 2; */
+    background-image: url(../images/bg-image.png);
+    background-size: cover;
+    background-repeat: repeat;
+    background-position: center;
+    width: 22%;
+    height: 100vh;
+}
+.sign-up-section{
+    width: 70%;
+}
+
+.side-nav{
+    padding: .8em;
+    margin: .3em 1em;
+}
+.Q-logo{
+    font-size: 1.6em;
+    text-align: justify;
+    font-family: sans-serif;
+    
+}
+.bee-logo{
+    color: white;
+    font-size: 21px;
+    font-family: sans-serif;
+
+    
+
+}
+h2{
+    font-size: 21px;
+    font-family: sans-serif;
+
+   
+
+}
+.dot-logo{
+    position: absolute;
+    top:33px;
+    left: 47px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: white;
+}
+.paragraph{
+    margin: 5em 1em;
+    padding: .8em;
+    color: white;
+    line-height: 20px;
+    font-size: 15px;
+}
+
+.clock {
+    width: 300px;
+   margin: -1em 2em -2em 0;
+}
+
+.sign-up-section{
+    width: 600px;
+   margin:  8em;
+   padding: 1em;
+   position: relative;
+
+}
+.flag-container{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 750px;
+    height: auto;
+    padding: 18px;
+    /* border: 1px solid black; */
+   
+    
+}
+
+select{
+    padding: 3px;
+    border: none;
+    background-color: #f4f4f4; 
+    font-size: 12px;
+}
+select:focus{
+    outline: none;
+}
+
+.fa-regular{
+    font-size: 12px;
+    padding: 7px 0px;
+}
+.sign-up-section h1, p,a{
+    padding: .5em 0;
+    text-decoration: none;
+}
+.sign-up-section h1{
+    font-size: 1.4em;
+}
+
+
+.sign-up-section a{
+    color: rgb(75,97,217);
+    margin-left: 10px;
+}
+.sign-up-section form div input{
+    padding: .8em 15px;
+    width: 500px;
+    margin: .8em 0;
+    border: 1px solid lightgray;
+    font-size: 15px;
+    border-radius: 4px;
+
+}
+.sign-up-section form div input:focus{
+   
+    outline: lightgray;
+}
+.sign-in-btn{
+    margin: 3.5em 0 0 0;
+    padding: .7em;
+    width: 110px;
+    background-color: rgb(75,97,217);
+    color: white;
+    font-size: 14px;
+    border: none;
+    border-radius: 4px;
+}
+
+.container-btn{
+   
+    position: absolute;
+    top: 78%;
+    left: 28%;
+    height: 50px;
+    transform: translate(-50%, -50%);
+    display: flex;
+   /* align-items: center;
+   justify-content: center; */
+   
+}
+
+.container-btn .toggle{
+    position: absolute;
+    top: 0;
+    left: 17px;
+    width: 35px;
+    height: 20px;
+    background-color: rgb(75,97,217);
+
+    border-radius: 20px;
+    transition: .3s;
+   
+}
+
+.container-btn .toggle .toggle-btn{
+    position: absolute;
+    top: 3px;
+    left: 3px;
+    width: 15px;
+    height: 15px;
+    background: white;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: .3s;
+}
+ .text{
+   /* position: absolute;
+   left: 95px; */
+    font-size: 16px;
+    margin-left: 60px;
+}
+
+.fgt-pass{
+    font-size: 16px;
+    margin-left: 50px;
+   
+}
+
+.fgt-pass a{
+    color: lightgray;
+}
+
+@media screen and (max-width: 720px){
+    .side-nav{
+        padding: .1em 0 .1em .5em;
+        margin: .3em 0em;
+       
+    }
+
+    .sign-up-section{
+       margin:  8em 1em;
+       padding: 1em;
+       
+    
+    }
+    .paragraph{
+        font-size: 12px;
+        text-align: center;
+    }
+
+    .container-btn .toggle{
+        position: absolute;
+        top: 0;
+        left: 40px;
+      
+       
+    }
+
+    .text{
+       
+         font-size: 16px;
+         margin-left: 90px;
+     }
+
+     .flag-container{
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        margin-left: -20em;
+    
+    }
+
+    .Q-logo{
+        font-size: 1.4em;
+        
+        
+    }
+    .bee-logo{
+        
+        font-size: 16px;
+        
+    
+    }
+    h2{
+        font-size: 16px;
+        
+    
+       
+    
+    }
+    .dot-logo{
+        position: absolute;
+        top:15px;
+        left: 20px;
+        width: 6px;
+        height: 6px;
+        border-radius: 50%;
+        background: white;
+    }
+
+    .clock {
+        width: 100px;
+       margin: -1em 2em -2em 0;
+    }
+   
+}

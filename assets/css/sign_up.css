@@ -1,0 +1,218 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #f4f4f4;
+    overflow: hidden;
+    font-family: 'Source Sans Pro', sans-serif;
+
+}
+.container{
+    width: 100vw;
+    display: flex;
+    
+}
+
+.side-nav-section{
+    display: flex;
+    flex-direction: column;
+    /* flex: 2; */
+    background-image: url(../images/bg-image.png);
+    background-size: cover;
+    background-repeat: repeat;
+    background-position: center;
+    width: 22%;
+    height: 100vh;
+}
+.sign-up-section{
+    width: 70%;
+}
+
+.side-nav{
+    padding: .8em;
+    margin: .3em 1em;
+}
+.Q-logo{
+    font-size: 1.6em;
+    text-align: justify;
+    font-family: sans-serif;
+    
+}
+.bee-logo{
+    color: white;
+    font-size: 21px;
+}
+h2{
+    font-size: 21px;
+}
+.dot-logo{
+    position: absolute;
+    top:33px;
+    left: 47px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: white;
+}
+.paragraph{
+    margin: 5em 1em;
+    padding: .8em;
+    color: white;
+    line-height: 20px;
+    font-size: 15px;
+}
+
+.clock {
+    width: 300px;
+   margin: -1em 2em -5em 0;
+}
+
+.sign-up-section{
+    width: 600px;
+    /* height: 500px; */
+    /* border: 1px solid black; */
+   margin:  3.5em 6em;
+   padding: 1em;
+   position: relative;
+
+}
+.flag-container{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 750px;
+    height: auto;
+    padding: 18px;
+    /* border: 1px solid black; */
+    
+    
+}
+
+select{
+    padding: 3px;
+    border: none;
+    background-color: #f4f4f4; 
+    font-size: 12px;
+}
+select:focus{
+    outline: none;
+}
+
+.fa-regular{
+    font-size: 12px;
+    padding: 7px 0px;
+}
+
+.sign-up-section h1, p,a{
+    padding: .5em 0;
+    text-decoration: none;
+}
+.sign-up-section h1{
+    font-size: 1.4em;
+}
+
+
+.sign-up-section a{
+    color: rgb(75,97,217);
+    margin-left: 10px;
+}
+.sign-up-section form div input{
+    padding: .8em 15px;
+    width: 500px;
+    margin: .8em 0;
+    border: 1px solid lightgray;
+    font-size: 15px;
+    border-radius: 4px;
+
+}
+.sign-up-section .two-input input{
+    width: 243px;
+    margin-right: 10px;
+    
+}
+.sign-up-section form div input:focus{
+   
+    outline: lightgray;
+}
+.sign-in-btn{
+    margin: 2em 0 0 0;
+    padding: .7em;
+    width: 110px;
+    background-color: rgb(75,97,217);
+    color: white;
+    font-size: 14px;
+    border: none;
+    border-radius: 4px;
+}
+
+
+.pass-warning{
+    font-size: 15.5px;
+    margin-top: -10px;
+}
+
+
+@media screen and (max-width: 720px){
+    .side-nav{
+        padding: .1em 0 .1em .5em;
+        margin: .3em 0em;
+       
+    }
+
+    .sign-up-section{
+       margin:  8em 6em;
+       padding: 1em;
+       
+    
+    }
+    .paragraph{
+        font-size: 12px;
+        text-align: justify;
+    }
+
+    .text{
+       
+         font-size: 16px;
+         margin-left: 90px;
+     }
+
+     .flag-container{
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        /* margin-left: 4em; */
+    
+    }
+
+    .Q-logo{
+        font-size: 1.4em;
+        
+        
+    }
+    .bee-logo{
+        
+        font-size: 16px;
+        
+    
+    }
+    h2{
+        font-size: 16px;
+        
+    
+       
+    
+    }
+    .dot-logo{
+        position: absolute;
+        top:15px;
+        left: 20px;
+        width: 6px;
+        height: 6px;
+        border-radius: 50%;
+        background: white;
+    }
+   
+}
