@@ -93,7 +93,7 @@ i{
 }
 
 
-.nav-menu ul li a:hover{
+.nav-menu ul li:hover a{
     color: white;
 }
 
